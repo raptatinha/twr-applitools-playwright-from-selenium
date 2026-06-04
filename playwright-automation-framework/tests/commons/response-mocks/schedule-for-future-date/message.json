@@ -1,0 +1,91 @@
+{
+  "_id": "0001:6734fdbe3eb24364645654820d2d0ff725:ot",
+  "name": "automation",
+  "channel": "email",
+  "sendtrigger": "manual",
+  "classification": "promotional",
+  "editorType": "html",
+  "status": "sent",
+  "channelType": "email",
+  "linkCount": 0,
+  "trackLinks": "enabled",
+  "appendLinks": "enabled",
+  "priority": 2,
+  "expExists": false,
+  "ct": "2026-11-13T19:27:58+0000",
+  "lm": "2026-11-13T19:28:04+0000",
+  "message": {
+    "headers": {
+      "fromEmail": "info@acme.com",
+      "replyEmail": "info@acme.com",
+      "fromDesc": "automation",
+      "subject": "automation subject line"
+    },
+    "content": {
+      "text/html": "automation body sample"
+    },
+    "wip": {
+      "headers": {
+        "fromEmail": "info@acme.com",
+        "replyEmail": "info@acme.com",
+        "fromDesc": "automation",
+        "subject": "automation subject line"
+      },
+      "content": {
+        "text/html": "automation body sample"
+      }
+    }
+  },
+  "audience": {
+    "or": [
+      {
+        "channels": {
+          "email": {
+            "operator": "matches",
+            "value": "automation004_email_subscribed@acme.com"
+          }
+        }
+      },
+      {
+        "channels": {
+          "email": {
+            "operator": "matches",
+            "value": "automation005_email_subscribed@acme.com"
+          }
+        }
+      }
+    ]
+  },
+  "usedAttributes": [],
+  "jobID": "34234235",
+  "sendSchedule": "2026-11-13T19:28:04+0000",
+  "sendTime": "2026-11-13T19:28:04.991Z",
+  "attempts": 1,
+  "audienceTotal": 2,
+  "startTime": "2026-11-13T19:28:33+0000",
+  "sortServerInsertStats": {
+    "insertTime": 0.0053179264068603516,
+    "records": 2
+  },
+  "stats": {
+    "totals": {
+      "ts": 2,
+      "ho": 2,
+      "to": 2,
+      "uho": 2,
+      "uo": 2
+    },
+    "device": {
+      "computer": {
+        "ho": 2,
+        "to": 2
+      }
+    }
+  },
+  "endTime": "2026-11-13T19:29:06+0000",
+  "appendLinksValueClear": null,
+  "tags": [],
+  "noOfTransports": 2,
+  "isRecipientTZ": true,
+  "experiments": false
+}

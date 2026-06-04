@@ -1,0 +1,36 @@
+{
+  "opened": {
+    "count": 2
+  },
+  "clicked": {
+    "count": 0
+  },
+  "bounced": {
+    "count": 0
+  },
+  "optouts": {
+    "count": 0
+  },
+  "sends": {
+    "count": 2
+  },
+  "unique_opens": {
+    "count": 2
+  },
+  "delivered": {
+    "count": 2
+  },
+  "links": [],
+  "_id": "00001:gdsgregsgvd:ot",
+  "message": {
+    "channel": "email",
+    "key": "",
+    "classification": "promotional",
+    "name": "automation",
+    "tags": [],
+    "sendType": "manual",
+    "scheduleType": ""
+  },
+  "isScheduled": false,
+  "filters": false
+}

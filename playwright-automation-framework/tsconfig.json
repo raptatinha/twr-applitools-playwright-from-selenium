@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@config/*": ["./config/*"],
+      "@data/*": ["./tests/commons/data/*"],
+      "@enums/*": ["./tests/commons/enums/*"],
+      "@interfaces/*": ["./tests/commons/interfaces/*"],
+      "@pages/*": ["./tests/ui/pages/*"],
+      "@payloads/*": ["./tests/commons/payloads/*"],
+      "@requests/*": ["./tests/api/requests/*"],
+      "@trackjs/*": ["./tests/commons/trackjs/*"],
+      "@setup/*": ["./tests/setup/*"],
+      "@utils/*": ["./tests/commons/utils/*"],
+      "@files/*": ["./tests/commons/files/*"],
+      "@response-mocks/*": ["./tests/commons/response-mocks/*"]
+    }
+  }
+}

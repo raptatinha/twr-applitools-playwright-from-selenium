@@ -1,0 +1,25 @@
+{
+  "cookies": [
+    {
+      "name": "acme_admin_user",
+      "value": "fake-session-cookie-value-admin",
+      "domain": ".acme.com",
+      "path": "/",
+      "expires": 1812153600.573,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "acme_known_user",
+      "value": "fake-session-cookie-value-known-user",
+      "domain": ".acme.com",
+      "path": "/",
+      "expires": 1812153600.573,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}

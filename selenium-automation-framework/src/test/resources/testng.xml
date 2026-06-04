@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Acme Automation Suite" parallel="none" verbose="2">
+
+    <!-- No built-in parallelism - must configure manually and deal with thread safety -->
+    <!-- parallel="none" because our tests share state and aren't thread-safe -->
+
+    <parameter name="browser" value="chrome"/>
+    <parameter name="environment" value="qc"/>
+
+    <listeners>
+        <listener class-name="com.acmeplatform.automation.listeners.TestListener"/>
+    </listeners>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="com.acmeplatform.automation.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Contact Tests">
+        <classes>
+            <class name="com.acmeplatform.automation.tests.ContactTest"/>
+        </classes>
+    </test>
+
+    <test name="Message Tests">
+        <classes>
+            <class name="com.acmeplatform.automation.tests.MessageTest"/>
+        </classes>
+    </test>
+
+    <test name="API Tests">
+        <classes>
+            <class name="com.acmeplatform.automation.api.ContactApiTest"/>
+        </classes>
+    </test>
+
+</suite>

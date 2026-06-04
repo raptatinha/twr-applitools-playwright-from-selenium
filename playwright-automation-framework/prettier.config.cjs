@@ -1,0 +1,25 @@
+/* eslint-disable no-undef */
+module.exports = {
+  semi: true,
+  trailingComma: "es5",
+  singleQuote: false,
+  printWidth: 120,
+  plugins: [require("@trivago/prettier-plugin-sort-imports")],
+  importOrder: [
+    "^@playwright/(.*)$",
+    "<THIRD_PARTY_MODULES>",
+    "^@config/(.*)$",
+    "^@setup/(.*)$",
+    "^@utils/(.*)$",
+    "^@enums/(.*)$",
+    "^@interfaces/(.*)$",
+    "^@pages/(.*)$",
+    "^@requests/(.*)$",
+    "^@payloads/(.*)$",
+    "^@data/(.*)$",
+    "^[./]",
+  ],
+  importOrderSeparation: false,
+  importOrderSortSpecifiers: true,
+  importOrderCaseInsensitive: true,
+};
