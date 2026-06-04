@@ -36,3 +36,7 @@ repo/
 ├── playwright-automation-framework/   # Primary test framework (TypeScript + Playwright)
 └── selenium-automation-framework/     # Legacy test framework (Java + Selenium)
 ```
+
+https://testingwithrenata.com/
+
+Happy Testing 🎭
